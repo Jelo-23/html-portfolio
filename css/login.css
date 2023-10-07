@@ -1,0 +1,81 @@
+body#loginBody {
+  background: url('/Images/login-background.jpg') no-repeat ;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.loginHeader{
+  text-align: center;
+  margin-bottom: 60px;
+}
+.loginHeader h1{
+  font-size: 100px;
+  font-weight: bold;
+  color: #f685a2;
+  margin: 0px;
+}
+.loginHeader p{
+  color: #ffdae3;
+  font-size: 50px;
+  margin: 0px;
+  text-transform: uppercase;
+  display: inline-block; /* Need this to properly centered the  element, combination with line (24)*/
+}
+.loginHeader p::after{
+  content: '';
+  display: block; /* Need this to properly centered the  element, combination with line (20)*/
+  height: 5px;
+  background: #f685a2;
+  margin: 0 auto;  /* center the bottom line */
+}
+/* ========================================= */
+.loginBody form{
+  margin: 0 auto;
+  width: 450px;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 50px;
+  border: 2px solid white;
+  border-radius: 8px;
+  
+}
+.loginInputContainer label{
+  display: block;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.loginInputContainer input{
+  height: 30px;
+  width: 100%;
+  border: solid 2px #d40339;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  font-style: italic;
+}
+/* ========================================= */
+
+.loginButtonContainer{
+  margin-top: 40px;
+  text-align: center;
+}
+.loginButtonContainer button{
+  font-size: 20px;
+  padding: 10px 40px; /* Top & Right padding */
+  background: #f685a2;
+  border: none;
+}
+
+/* ========================================= */
+#errorMessage{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  background: #dddddd;
+}
+.error_text{
+  font-weight: bold;
+  font-size: 30px;
+}

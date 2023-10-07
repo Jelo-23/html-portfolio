@@ -1,0 +1,42 @@
+.column-12{
+  width: 100%;
+}
+/* ================= rows and columns border*/
+.section_header{
+  font-size: 21px;
+  color: #f685a1;
+  border-bottom: 1px solid #ffd7e1;
+  padding-bottom: 11px;
+  padding: 10px;
+  border-left: 4px solid #f690bf;
+  margin-bottom: 15px;
+}
+.userCount{
+  text-align: right;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f685a1;
+}
+table{
+  width: 100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table th{
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #f4f6f9;
+}
+table td{
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+}
+.delete_update{
+  padding: 0px;
+  font-size: 9px;
+}

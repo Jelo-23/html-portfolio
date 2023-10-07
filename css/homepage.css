@@ -1,0 +1,219 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  margin: 0px;
+}
+.header{
+  background-color: #f685a1;
+  width: 100%;
+  height: 20px;
+  padding: 10px 0px;
+  text-align: right;
+}
+.header a{
+  padding: 0px 10px 0px 10px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+}
+.header a:hover{
+  border: white solid 2px;
+  border-radius: 4px;
+}
+div.banner{
+  background-image: url('/images/banner.jpg') no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 60vh;
+}
+div.homePageContainer h1{
+  margin: 0px;
+}
+div.homePageContainer{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto; /* This will center all the elements */
+  /* height: 70vh; */
+}
+.bannerHeader h1{
+  font-size: 100px;
+  color: #f685a1;
+  line-height: 100%;
+}
+.bannerHeader p{
+  font-size: 40px;
+  color: #f685a1;
+  text-transform: uppercase;
+  line-height: 100%;
+}
+p.bannerTagLine{
+  color: white;
+  margin-top: 20px;
+  font-size: 25px;
+}
+div.bannerIcons{
+  margin-top: 150px;
+}
+div.bannerIcons a{
+  font-size: 23px;
+  margin-left: 40px;
+  padding: 7px 15px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #868485;
+  width: 50px;
+  height: 50px;
+  /* display: inline-block; */
+}
+div.bannerIcons a:first-child{
+  margin-left: 0px;
+}
+div.bannerIcons a:hover{
+  color: white;
+  background: #f685a1;
+  cursor: pointer;
+  font-size: 26px;
+  transition: .5s all;
+}
+/* ================================== */
+div.homePageFeatures{
+  display: flex;
+  flex-direction: row;
+}
+div.homePageFeature{
+  padding: 10px 20px; /* Top & Bottom */
+  text-align: center;
+  padding: 20px 0px;
+  margin: 20px 0px 20px 0px;
+}
+div.homePageFeature:hover{
+  border-top: #f685a1 solid 2px;
+  border-bottom: #f685a1 solid 2px;
+  transition: 0.5s all;
+}
+div.homePageFeature span.featureIcon{
+  font-size: 50px;
+  height: 80px;
+  width: 80px;
+  background-color: #f685a1;
+  color: white;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 14px 2px 0px 8px;
+  margin-bottom: 20px;
+}
+div.homePageFeature h3.featureTitle{
+  margin-bottom: 20px;
+}
+div.homePageFeature p.featureDescription{
+  color: #848484;
+}
+/* ================================== */
+div.homePageNotifiedContainer{
+  display: flex;
+  flex-direction: row;
+}
+div.homePageNotifiedContainer > div{
+  width: 50%;
+}
+div.homePageNotified{
+  display: flex;
+  background: #e3e3e3;
+  padding: 50px 0px;
+}
+div.homePageNotified h3{
+  margin-bottom: 20px;
+}
+div.homePageNotified p{
+  color: #848484;
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+div.formContainer{
+  width: 80%;
+  position: relative;
+}
+div.formContainer input{
+  width: 94%;
+  padding: 15px 10px;
+  border-radius: 15px;
+  border: none;
+}
+.formContainer input:focus{
+  outline: none;
+}
+div.formContainer button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  font-size: 22px;
+  background-color: #f685a1;
+  color: white;
+  border: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+iframe{
+  width: 90%;
+  height: 120%;
+} 
+div.emailForm{
+  width: 40%;
+}
+div.video{
+  width: 60%;
+  text-align: center;
+}
+/* ================================== */
+div.social{
+  text-align: center;
+  padding: 60px 0px 30px 0px;
+}
+h3.socialHeader{
+  font-size: 30px;
+}
+.socialText{
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: #848484;
+  font-size: 20px;
+}
+div.socialIconsContainer a{
+  font-size: 23px;
+  width: 50px;
+  height: 37px;
+  background-color: #d4d4d4;
+  color: white;
+  padding-top: 11px;
+  border-radius: 50%;
+  display: inline-block; /* This will help us to prevent problems for some adjustments. */ 
+  margin-left: 20px;
+}
+div.socialIconsContainer a:hover{
+  background-color: #f685a1;
+  transition: 0.5s all;
+}
+/* ================================== */
+
+div.footer{
+  text-align: center;
+  background: #e3e3e3;
+  padding: 40px;
+}
+
+div.footer a{
+  color: #848484;
+  margin-left: 30px;
+  text-decoration: none;
+  ;
+}
+div.footer a:hover{
+  color: #f685a1;
+  transition: 0.5s all;
+  font-size: 18px;
+}

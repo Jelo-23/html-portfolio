@@ -1,0 +1,111 @@
+#dashboard-main-container{
+  display: flex;
+  flex-direction: row;
+}
+.dashboard-sidebar{
+  background-color: #838383;
+  width: 16%;
+  height: 100vh;
+}
+.dashboard-content-container{
+  width: 84%;
+  background-color: rgb(219, 219, 224);
+}
+.dashboard-logo{
+  color: #f685a1;
+  text-align: center; 
+  font-size: 80px;
+  margin: 0px;
+}
+.dashboard-sidebar-user{
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.dashboard-sidebar-user img{
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid #f685a1;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.dashboard-sidebar-user span{
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+/* =========================== */
+.dashboard-menu-list li{
+  font-size: 20px;
+  list-style-type: none;
+  padding: 15px 0px;
+  padding-left: 12px;
+  margin-left: -40px;
+}
+.dashboard-menu-list li:hover{
+  background-color: #f685a1;
+  transition: 1s all;
+  text-decoration: none;
+}
+.dashboard-menu-list a:hover{
+  color: white;
+  text-decoration: none;
+  transition: 1s all;
+}
+/* .dashboard-menu-list li.menu-active{
+  background-color: #f685a1;
+} */
+.dashboard-menu-list a{
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+}
+.dashboard-menu-list li a i{
+  width: 30px;
+  font-size: 18px;
+}
+.subMenus{
+  background-color: #c26a80;
+  display: none;
+}
+li.listSubMenu{
+  padding: 0px;
+}
+a.subMenuLink{
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+.mainMenuIconArrow{
+  float: right;
+  font-size: 23px !important;
+  padding-left: 9px;
+}
+/* =========================== */
+.dashboard-top-nav{
+  background-color: white;
+  padding: 20px;
+}
+.dashboard-top-nav a{
+  color: #848383;
+  text-decoration: none;
+  font-size: 18px;
+}
+a#logout-btn{
+  float: right;
+}
+.dashboard-content{
+  padding: 20px 10px 10px 10px;
+}
+.dashboard-content-main{
+  border: 1px solid #cdcdcd;
+  background-color: white;
+  height: 100%;
+  min-height: 600px;
+  padding: 25px 25px;
+}
+/* =========================== */
+
+
+/* =========================== */
